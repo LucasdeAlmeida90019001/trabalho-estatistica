@@ -6,6 +6,23 @@
     <title>Estatística Descritiva</title>
 </head>
 <body>
-    <input type="number" id="number">
+    Nome da Variável
+    <input type="text" id="variável" placeholder="Objeto de pesquisa">
+    Valores
+    <input type="text" id="Valores" placeholder="Valores separados por ;">
+    <button>Importar</button>
+    <p>
+    <select name="am/pop" id="am/pop" size="2">
+        <option value="Amostra">Amostra</option>
+        <option value="população">População</option>
+    </select>
+    <select name="variável" id="variável" size="4">
+        <option value="vqn">Variável Qualitativa Nominal</option>
+        <option value="vqo">Variável Qualitativa Ordinal</option>
+        <option value="vqd">Variável Quantitativa Discreta</option>
+        <option value="vqc">Variável Quantitativa Continua</option>
+    </select>
+    <button>Calcular</button>
+    </p>
 </body>
 </html>
